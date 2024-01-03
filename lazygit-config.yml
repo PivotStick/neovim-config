@@ -1,0 +1,133 @@
+git:
+  parseEmoji: true
+services:
+  "git.intercaps.net": "gitlab:git.intercaps.net"
+keybinding:
+  universal:
+    quit: "q"
+    quit-alt1: "<c-c>" # alternative/alias of quit
+    return: "<esc>" # return to previous menu, will quit if there's nowhere to return
+    quitWithoutChangingDirectory: "Q"
+    togglePanel: "<tab>" # goto the next panel
+    prevItem: "k" # go one line up
+    nextItem: "j" # go one line down
+    prevItem-alt: null # go one line up
+    nextItem-alt: null # go one line down
+    prevPage: "," # go to next page in list
+    nextPage: "." # go to previous page in list
+    gotoTop: "g" # go to top of list
+    gotoBottom: "G" # go to bottom of list
+    scrollLeft: null # scroll left within list view
+    scrollRight: null # scroll right within list view
+    prevBlock: "K" # goto the previous block / panel
+    nextBlock: "J" # goto the next block / panel
+    prevBlock-alt: null # goto the previous block / panel
+    nextBlock-alt: null # goto the next block / panel
+    jumpToBlock: ["1", "2", "3", "4", "5"] # goto the Nth block / panel
+    nextMatch: "n"
+    prevMatch: "N"
+    optionMenu-alt1: "?" # show help menu
+    select: "<space>"
+    goInto: "<enter>"
+    openRecentRepos: null
+    confirm: "<enter>"
+    remove: "d"
+    new: "n"
+    edit: "e"
+    openFile: "o"
+    scrollUpMain: "<c-k>" # main panel scroll up
+    scrollDownMain: "<c-j>" # main panel scroll down
+    scrollUpMain-alt1: null # main panel scroll up
+    scrollDownMain-alt1: null # main panel scroll down
+    scrollUpMain-alt2: null # main panel scroll up
+    scrollDownMain-alt2: null # main panel scroll down
+    executeCustomCommand: ":"
+    createRebaseOptionsMenu: "m"
+    pushFiles: "P"
+    pullFiles: "p"
+    refresh: "R"
+    createPatchOptionsMenu: "<c-p>"
+    nextTab: "L"
+    prevTab: "H"
+    nextScreenMode: "="
+    prevScreenMode: "-"
+    undo: "z"
+    redo: "<c-z>"
+    filteringMenu: null
+    diffingMenu: "W"
+    diffingMenu-alt: null # deprecated
+    copyToClipboard: null
+    submitEditorText: "<enter>"
+    extrasMenu: null
+    toggleWhitespaceInDiffView: null
+    increaseContextInDiffView: null
+    decreaseContextInDiffView: null
+  status:
+    checkForUpdate: null
+    recentRepos: null
+  files:
+    commitChanges: "c"
+    commitChangesWithoutHook: "w" # commit changes without pre-commit hook
+    amendLastCommit: "A"
+    commitChangesWithEditor: "C"
+    confirmDiscard: "x"
+    ignoreFile: "i"
+    refreshFiles: "r"
+    stashAllChanges: "s"
+    viewStashOptions: "S"
+    toggleStagedAll: "a" # stage/unstage all
+    viewResetOptions: "D"
+    fetch: "f"
+    toggleTreeView: null
+    openMergeTool: "M"
+    openStatusFilter: "<c-b>"
+  branches:
+    createPullRequest: "o"
+    viewPullRequestOptions: "O"
+    checkoutBranchByName: "c"
+    forceCheckoutBranch: null
+    rebaseBranch: null
+    renameBranch: "r"
+    mergeIntoCurrentBranch: "M"
+    viewGitFlowOptions: "i"
+    fastForward: "f" # fast-forward this branch from its upstream
+    createTag: null
+    pushTag: null
+    setUpstream: null # set as upstream of checked-out branch
+    fetchRemote: "f"
+  commits:
+    squashDown: null
+    renameCommit: null
+    renameCommitWithEditor: null
+    viewResetOptions: null
+    markCommitAsFixup: null
+    createFixupCommit: null # create fixup commit for this commit
+    squashAboveCommits: null
+    moveDownCommit: null # move commit down one
+    moveUpCommit: null # move commit up one
+    amendToCommit: null
+    pickCommit: null # pick commit (when mid-rebase)
+    revertCommit: null
+    cherryPickCopy: null
+    cherryPickCopyRange: null
+    pasteCommits: null
+    tagCommit: null
+    checkoutCommit: null
+    resetCherryPick: null
+    copyCommitMessageToClipboard: null
+    openLogMenu: null
+    viewBisectOptions: null
+  stash:
+    popStash: null
+    renameStash: null
+  commitFiles:
+    checkoutCommitFile: null
+  main:
+    toggleDragSelect: null
+    toggleDragSelect-alt: null
+    toggleSelectHunk: null
+    pickBothHunks: null
+  submodules:
+    init: null
+    update: null
+    bulkMenu: null
