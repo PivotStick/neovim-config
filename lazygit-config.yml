@@ -131,3 +131,5 @@ keybinding:
     init: null
     update: null
     bulkMenu: null
+os:
+  openLink: open "$(echo "{{link}}" | sed 's/\[/\%5B/g; s/\]/\%5D/g')"'
